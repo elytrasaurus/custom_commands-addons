@@ -1,0 +1,30 @@
+{
+  "syswatch": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/syswatch.py",
+    "desc": "Live terminal task manager dashboard tracking real-time CPU & RAM usage."
+  },
+  "webget": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/webget.py",
+    "desc": "High-speed URL resource downloader that runs directly inside your console."
+  },
+  "shred": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/shred.py",
+    "desc": "Permanently destroys sensitive files by overwriting data blocks with binary noise."
+  },
+  "hexview": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hexview.py",
+    "desc": "Inspects raw binary byte maps of local files in side-by-side Hex/ASCII panels."
+  },
+  "speedtest": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/speedtest.py",
+    "desc": "Tests your live network connection and calculates active internet bandwidth speeds."
+  },
+  "shorten": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/shorten.py",
+    "desc": "Compresses massive web links into clean, shareable TinyURL links instantly."
+  },
+  "cryptorate": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/cryptorate.py",
+    "desc": "Fetches and displays live real-time financial trading prices for top crypto coins."
+  }
+}
