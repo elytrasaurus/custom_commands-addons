@@ -62,5 +62,9 @@
   "currency": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/currency.py",
     "desc": "Fetches open-source economic asset tables to evaluate direct trading value exchanges."
+  },
+  "betterhelpme": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/betterhelpme.py",
+    "desc": "Launches a graphical CustomTkinter dashboard showing all your commands with live search filters."
   }
 }
