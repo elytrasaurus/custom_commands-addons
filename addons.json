@@ -18,5 +18,13 @@
   "cryptorate": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/cryptorate.py",
     "desc": "Fetches and displays live real-time financial trading prices for top crypto coins."
+  },
+  "backup": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/backup.py",
+    "desc": "Safely duplicates files or folder structures into a timestamped backup directory."
+  },
+  "fsize": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/fsize.py",
+    "desc": "Scans your folder and lists the top heaviest files sorted by drive size."
   }
 }
