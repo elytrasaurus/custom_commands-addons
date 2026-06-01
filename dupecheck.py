@@ -22,30 +22,24 @@ def main():
         print(f"[-] Error: '{target_dir}' is not a valid directory.")
         sys.exit(1)
 
-    print(f"[+] Filtering system files and scanning directory contents inside: {target_dir}...")
+    print(f"[+] Scanning maps and calculating file hashes inside: {target_dir}...")
     hashes = {}
     duplicates = []
 
-    # Directories we want to skip completely to avoid technical spam
-    IGNORED_DIRS = {'.venv', '.git', '__pycache__', 'node_modules', '.idea', '.vscode'}
-    # Minimum file size in bytes to check (10 KB) to ignore tiny identical files
-    MIN_SIZE_BYTES = 10 * 1024 
-
     try:
-        for root, dirs, files in os.walk(target_dir):
-            # Modifying dirs in-place tells os.walk to completely skip walking into ignored folders
-            dirs[:] = [d for d in dirs if d not in IGNORED_DIRS]
+        for root, _, files in os.walk(target_dir):
+            # FIXED: Hard-block environmental spam from paths instantly
+            if any(ignored in root.lower() for ignored in ['.venv', '.git', '__pycache__', 'site-packages']):
+                continue
 
             for filename in files:
                 filepath = os.path.join(root, filename)
                 
                 if os.path.islink(filepath):
                     continue
-
                 try:
-                    # Check size first to filter out tiny configurations
-                    file_size = os.path.getsize(filepath)
-                    if file_size < MIN_SIZE_BYTES:
+                    # Skip files smaller than 5KB (ignoring tiny empty metadata files)
+                    if os.path.getsize(filepath) < 5120:
                         continue
 
                     file_hash = calculate_hash(filepath)
@@ -60,7 +54,7 @@ def main():
                     continue
 
         if not duplicates:
-            print("[+] Scan complete: Zero duplicate file contents detected (ignoring system/empty files).")
+            print("[+] Scan complete: Zero duplicate file contents detected.")
             return
 
         print("\n=== DETECTED DUPLICATE COPIES ===")
