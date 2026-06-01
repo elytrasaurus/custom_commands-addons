@@ -26,5 +26,41 @@
   "fsize": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/fsize.py",
     "desc": "Scans your folder and lists the top heaviest files sorted by drive size."
+  },
+  "betterhelpme": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/betterhelpme.py",
+    "desc": "Launches a graphical CustomTkinter dashboard showing all your commands with live search filters."
+  },
+  "organize": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/organize.py",
+    "desc": "Automatically scans a folder and sorts loose files into subfolders based on extension."
+  },
+  "dupecheck": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/dupecheck.py",
+    "desc": "Scans a folder and checks file size and data content to locate exact duplicate files."
+  },
+  "securenote": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/securenote.py",
+    "desc": "Scrambles a text message into a localized hidden format to protect it from casual glances."
+  },
+  "battery": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/battery.py",
+    "desc": "Shows current laptop battery percentages, charging profiles, and design metrics."
+  },
+  "pingplot": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/pingplot.py",
+    "desc": "Pings a stable server once per second and draws a real-time graph to track connection spikes."
+  },
+  "dict": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/dict.py",
+    "desc": "Connects to a free open API dictionary to look up lexical syntax, meanings, and word types."
+  },
+  "timezones": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/timezones.py",
+    "desc": "Displays current live timestamps from configured global metropolitan standard time matrices."
+  },
+  "currency": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/currency.py",
+    "desc": "Fetches open-source economic asset tables to evaluate direct trading value exchanges."
   }
 }
