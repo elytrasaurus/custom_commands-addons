@@ -68,7 +68,7 @@
     "desc": "Launches a graphical CustomTkinter dashboard showing all your commands with live search filters."
   },
   "cv": {
-    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/convert.py",
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/cv.py",
     "desc": "Converts images and videos."
   }
 }
