@@ -66,5 +66,9 @@
   "betterhelpme": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/betterhelpme.py",
     "desc": "Launches a graphical CustomTkinter dashboard showing all your commands with live search filters."
+  },
+  "convert": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/convert.py",
+    "desc": "Converts images and videos."
   }
 }
