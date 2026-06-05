@@ -1,3 +1,4 @@
+# Checks the SHA-256 hash of a file against a known threat database.
 import os
 import sys
 import hashlib
