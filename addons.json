@@ -70,5 +70,9 @@
   "cv": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/cv.py",
     "desc": "Converts images and videos."
+  },
+  "hashcheck": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hashckeck.py",
+    "desc": "Checks the SHA-256 hash of files."
   }
 }
