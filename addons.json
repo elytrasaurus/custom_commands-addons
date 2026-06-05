@@ -72,7 +72,7 @@
     "desc": "Converts images and videos."
   },
   "hashcheck": {
-    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hashckeck.py",
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hashcheck.py",
     "desc": "Checks the SHA-256 hash of files."
   }
 }
