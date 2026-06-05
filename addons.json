@@ -73,6 +73,6 @@
   },
   "hashcheck": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hashcheck.py",
-    "desc": "Checks the SHA-256 hash of files."
+    "desc": "Checks the SHA-256 hash of files and compares them to a known threat database."
   }
 }
