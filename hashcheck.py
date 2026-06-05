@@ -7,10 +7,10 @@ import urllib.request
 import urllib.error
 
 def print_usage():
-    print("Custom Commands Hash Reputation Checker (hc)")
+    print("Custom Commands Hash Reputation Checker (hashcheck)")
     print("Usage: hc <file_path>")
     print("\nExample:")
-    print("  hc C:\\Users\\Downloads\\suspicious_file.exe")
+    print("  hashcheck C:\\Users\\Downloads\\suspicious_file.exe")
 
 def calculate_sha256(file_path):
     if not os.path.exists(file_path):
