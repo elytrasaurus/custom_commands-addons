@@ -4,11 +4,11 @@ import sys
 import hashlib
 
 def print_usage():
-    print("Custom Commands Local Hash Checker (hc)")
-    print("Usage:  hc <hash_type> <file_path>")
+    print("Custom Commands Local Hash Checker (hashcheck)")
+    print("Usage:  hashcheck <hash_type> <file_path>")
     print("Supported types: md5, sha1, sha256, sha512")
     print("\nExample:")
-    print("  hc sha256 C:\\Users\\Downloads\\file.exe")
+    print("  hashcheck sha256 C:\\Users\\Downloads\\file.exe")
 
 def main():
     if len(sys.argv) < 3:
