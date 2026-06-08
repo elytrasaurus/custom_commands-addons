@@ -75,8 +75,8 @@
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/hashcheck.py",
     "desc": "Checks the hash of files."
   },
-  "struct": {
-    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/struct.py",
+  "construct": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/construct.py",
     "desc": "Allows you to type a file tree and it creates all the files."
   }
 }
