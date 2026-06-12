@@ -1,3 +1,4 @@
+# Creates a file tree for your current folder.
 import os
 import sys
 
