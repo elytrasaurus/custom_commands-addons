@@ -78,5 +78,9 @@
   "construct": {
     "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/construct.py",
     "desc": "Allows you to type a file tree and it creates all the files."
+  },
+    "deconstruct": {
+    "url": "https://raw.githubusercontent.com/elytrasaurus/custom_commands-addons/main/deconstruct.py",
+    "desc": "Creates a file tree for your current folder."
   }
 }
